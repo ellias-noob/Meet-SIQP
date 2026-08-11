@@ -1,6 +1,6 @@
-Placa do Microcontrolador
+Placa do Microcontrolador: Arduino Uno R3
 Sensor de Fumaça/Gás: Módulo MQ-2
 Sensor de Temperatura e Umidade: Módulo DHT11 / DHT22
-Atuador
-Irrigação
-Reservatório
+Atuador: Módulo Relé 5V (1 Canal)
+Irrigação: Mini Bomba d'Água Submersível + Tubulação de Silicone e Aspersores
+Reservatório: Cisterna de Armazenamento de Água da Chuva
