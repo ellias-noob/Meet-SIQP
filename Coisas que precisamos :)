@@ -1,17 +1,19 @@
-Placa do Microcontrolador: Arduino Uno R3 ( expandivel para esp32 )
-Sensor de Fumaça/Gás: Módulo MQ-2
-Sensor de Temperatura e Umidade: Módulo DHT11
-Atuador: Módulo Relé 5V (1 Canal)
-Irrigação: Mini Bomba d'Água Submersível + Tubulação de Silicone e Aspersores
-Reservatório: Cisterna de Armazenamento de Água da Chuva
-placa solar mini
-bateria de litil
-key pra guardar bateria 
-camera termica
-mangueira termica
+Itens precisos:
 
+Microcontrolador	ESP32	R$ 45,00
+Sensor Térmico	Sensor AMG8833	R$ 150,00
+Comunicação	LoRa SX1276	R$ 60,00
+Sistema de Energia	Kit Solar + Lítio	R$ 150,00
+Sensor de Gás	Sensor de Gás MQ-2	R$ 20,00
+Sensor Climático	DHT22 Temp & Umidade	R$ 30,00
+Atuação	Kit Bomba d'Água	R$ 92,00
+Proteção	Caixa Impermeável IP65	R$ 40,00
 
+links de videos para aprendermos a ultilizar os itens:
 
-https://app.cirkitdesigner.com/project/45dd3a1e-090b-4a0c-a78b-a27c805e8d92
-https://youtu.be/8E_aIEnEk8w?si=nqQSg3XHnR3B4mWS ( MODULO DHT11)
-https://www.tinkercad.com/things/aw9lEN9G8bi-sensor-de-fumaca
+https://www.youtube.com/results?search_query=tp4056+mt3608+bateria+18650+esp32+painel+solar ( painel solar)
+https://www.youtube.com/results?search_query=modulo+rele+mini+bomba+dagua+esp32 ( rele e minibomba de agua)
+https://www.youtube.com/results?search_query=sensor+dht22+esp32+tutorial+portugues (dht22)
+https://www.youtube.com/results?search_query=sensor+mq2+fumaça+esp32+brincando+com+ideias( sensor de fumaça)
+https://www.youtube.com/results?search_query=como+funciona+esp32+brincando+com+ideias ( esp32)
+https://www.youtube.com/results?search_query=sensor+termico+amg8833+esp32+tutorial ( sensor termico)
