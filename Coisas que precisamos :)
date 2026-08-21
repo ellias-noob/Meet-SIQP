@@ -1,6 +1,6 @@
-Placa do Microcontrolador: Arduino Uno R3
+Placa do Microcontrolador: Arduino Uno R3 ( expandivel para esp32 )
 Sensor de Fumaça/Gás: Módulo MQ-2
-Sensor de Temperatura e Umidade: Módulo DHT11 / DHT22
+Sensor de Temperatura e Umidade: Módulo DHT11
 Atuador: Módulo Relé 5V (1 Canal)
 Irrigação: Mini Bomba d'Água Submersível + Tubulação de Silicone e Aspersores
 Reservatório: Cisterna de Armazenamento de Água da Chuva
@@ -13,4 +13,5 @@ mangueira termica
 
 
 
+https://youtu.be/8E_aIEnEk8w?si=nqQSg3XHnR3B4mWS ( MODULO DHT11)
 https://www.tinkercad.com/things/aw9lEN9G8bi-sensor-de-fumaca
