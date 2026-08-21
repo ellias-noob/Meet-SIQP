@@ -1,0 +1,16 @@
+O SIPQ opera por validação cruzada de sensores no ESP32 integrada a um gateway Python, garantindo combate imediato e eliminação de falsos positivos.
+Mapeamento de Hardware (Pinout)
+MQ-2 (Fumaça): GPIO 34 (Entrada analógica de 0 a 4095).
+AMG8833 (Câmera Térmica): GPIO 21 (SDA) e GPIO 22 (SCL) (Comunicação I2C).
+DHT22 (Clima): GPIO 4 (Entrada digital).
+Relé (Bomba d'Água): GPIO 25 (Saída digital).
+Lógica do Algoritmo (ESP32)
+Setup: Inicializa Barramento I2C e Serial, define a direção dos pinos e aguarda a calibração térmica do MQ-2.
+Loop (Varredura de 2-3s): Coleta a umidade/temperatura do ar (DHT22), a concentração de fumaça (MQ-2) e o ponto mais quente da visão infravermelha (AMG8833).
+Matriz de Decisão:
+SE (Calor > 70ºC E Fumaça > Limite Crítico): Liga o Relé (GPIO 25 = HIGH) e envia pacote JSON de Incêndio.
+SENÃO SE (Apenas Calor > 70ºC): Mantém o Relé desligado e envia mensagem de Alerta Térmico.
+SENÃO: Mantém o Relé desligado (Status: Seguro).
+Gateway e Monitoramento (Python)
+Recepção: O script em Python intercepta as mensagens JSON via USB ou Wi-Fi.
+Alertas: Atualiza o status visual no mapa da propriedade (Dashboard) e dispara notificações automáticas via APIs (WhatsApp, Telegram e e-mail) para os responsáveis e Defesa Civil.
