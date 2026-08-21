@@ -1,0 +1,17 @@
+Pressão da Bomba d'Água: A bomba de 5V não possui força para alimentar vários aspersores simultaneamente. 
+Utilize apenas um bico ou furos na mangueira para o protótipo, 
+e reserve bombas maiores (12V ou 110V/220V) para o uso em campo.
+
+Consumo do Sensor MQ-2: O aquecimento interno contínuo do sensor drena a bateria solar rapidamente. 
+Instale um transistor (MOSFET ou TIP120)
+para que o código do ESP32 ligue o sensor apenas no momento da leitura, 
+utilizando o modo Deep Sleep no restante do tempo.
+
+Limitações da Câmera Térmica: O alcance máximo é de 7 metros e o sol direto falsifica os dados de temperatura. 
+Instale a câmera com uma cobertura de sombreamento e 
+aponte-a para baixo em perímetros específicos.
+
+Isolamento de Temperatura: O interior da caixa de proteção funciona como uma estufa. 
+Mantenha as baterias e a placa dentro da caixa vedada, mas instale os sensores DHT22 e 
+MQ-2 do lado de fora, 
+virados para baixo e protegidos da chuva.
